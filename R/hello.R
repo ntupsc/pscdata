@@ -13,6 +13,6 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
-hello <- function() {
-  print("Hello, world!")
+alldata <- function() {
+  print("referendum_town\t\t town-level 2018 referendum result")
 }

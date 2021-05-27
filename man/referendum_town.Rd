@@ -1,4 +1,4 @@
-\name{referendum_town}
+\name{referendum_town.town}
 \alias{referendum_town}
 \docType{data}
 \title{2018 Taiwan referendum results by town}
