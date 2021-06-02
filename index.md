@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# pscdata for R
 
-You can use the [editor on GitHub](https://github.com/ntupsc/pscdata/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+自2021年3月起，本中心嘗試將做人口研究或性別研究常會用到的開放資料以R套件的方式發布，希望能夠便於做相關研究的研究者取用。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Since March 2021, we have gradually packaged government open data related to population and gender into an R package, hoping to make these data more easy-to-use.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# Installation guildline
+```
+install.packages("devtools")
+devtools::install_github("ntupsc/pscdata")
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Tutorial and examples
+1. [Data overview](html/tutorial.html)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ntupsc/pscdata/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Dataset
+- referendum_town
+- edu_town
+- demography_town
+- alldata() to list all data
