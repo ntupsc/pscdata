@@ -11,10 +11,15 @@ devtools::install_github("ntupsc/pscdata")
 ```
 
 # Tutorial and examples
-1. [Data overview](html/tutorial.html)
+1. [Data overview](http://htmlpreview.github.io/?https://github.com/ntupsc/pscdata/blob/master/html/tutorial.html)
 
 # Dataset
 - referendum_town
 - edu_town
 - demography_town
-- alldata() to list all data
+- edu_village_original
+- marriage_village_original
+- df_pop_stat_village_202106
+
+# Function
+- all_data() to list all data

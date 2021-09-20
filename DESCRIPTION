@@ -1,9 +1,9 @@
 Package: pscdata
 Type: Package
 Title: Opendata for research - Population and Gender Studies
-Version: 0.1.0
-Author: Ji-Lung Hsieh
-Maintainer: The package maintainer <jirlong@gmail.com>
+Version: 0.2.0
+Author: Ji-Lung Hsieh and Tzu-Hsuan Dennis Tseng
+Maintainer: The package maintainer <jirlong@gmail.com> and <r09342011@ntu.edu.tw>
 Description: Dataset for research in population and gender studies.
 License: MIT + file LICENSE
 Encoding: UTF-8

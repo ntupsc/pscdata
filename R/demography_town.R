@@ -1,0 +1,23 @@
+#' Data of 2018 demographic related statistics by town in Taiwan
+#'
+#' This data combine multiple indicators collected by the author
+#'
+#' @format A tibble with 368 rows and 14 variables:
+#' \describe{
+#'   \item{countytown}{chr county(hsien/shih in Chinese) and town(hsiang/chen/shih in Chinese) name}
+#'   \item{population}{dbl denoting number of people}
+#'   \item{elderSum}{dbl denoting number of elder people (above 65)}
+#'   \item{marriedSum}{dbl denoting number of married people}
+#'   \item{elderPerc}{dbl denoting percentage of elder people}
+#'   \item{marriedPerc}{dbl denoting percentage of married people}
+#'   \item{ageMedian}{dbl denoting median age}
+#'   \item{seven_n}{dbl denoting number of 7-11 (a well-known convenience store in Taiwan)}
+#'   \item{univPerc}{dbl denoting percentage of univestiy graduates}
+#'   \item{countytown.id}{chr id of town}
+#'   \item{tks.sum}{int denoting number of ???}
+#'   \item{kmt.rate}{int denoting percentage of people voting KMT for ??? in 2018}
+#'   \item{dpp.rate}{dbl denoting percentage of people voting DPP for ??? in 2018}
+#'   \item{other.rate}{dbl denoting percentage of people voting other parties for ??? in 2018}
+#' }
+#' @source \url{}
+"demography_town"
