@@ -11,10 +11,16 @@ devtools::install_github("ntupsc/pscdata")
 ```
 
 # Tutorial and examples
-1. [Data overview](html/tutorial.html)
+1. [Data overview](http://htmlpreview.github.io/?https://github.com/ntupsc/pscdata/blob/master/html/tutorial.html)
 
 # Dataset
-- referendum_town
-- edu_town
-- demography_town
-- alldata() to list all data
+- referendum_town 2018 公投結果 by 鄉鎮區
+- edu_town 2020 教育程度 by 鄉鎮區
+- demography_town 2020 人口變數 by 鄉鎮區
+- df_pop_stat_village_202106 202106 人口變數與統計 by 村里
+- ref10_demographic 2018 公投第十案 x 人口變數 by 鄉鎮區
+- edu_village_original 2020 教育程度 by 村里的寬表格
+- marriage_village_original 2020 婚姻狀況 by 村里的寬表格
+
+# Function
+- all_data() to list all data
