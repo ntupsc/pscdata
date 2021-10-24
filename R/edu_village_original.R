@@ -1,6 +1,6 @@
 #' Data of 2020 education related statistics by village in Taiwan
 #'
-#' This data is in a wide format, so we use `tidyr` to turn it into a long format. Please refer to the link below to check details of defenition.
+#' This data is in a wide format, so we use `tidyr` to turn it into a long format. Please refer to the link below to check details of columns defenition.
 #'
 #' @format A tibble with 7,760 rows and 51 variables:
 #' \describe{

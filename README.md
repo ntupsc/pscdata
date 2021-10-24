@@ -17,7 +17,11 @@ devtools::install_github("ntupsc/pscdata")
 - referendum_town 2018 公投結果 by 鄉鎮區
 - edu_town 2020 教育程度 by 鄉鎮區
 - demography_town 2020 人口變數 by 鄉鎮區
-- df_pop_stat_village_202106 202106 人口變數與統計 by 村里
+- pop_village_202106 2021/06 人口變數與統計 by 村里
+- abpop_village_202106 2021/06 原住民人口變數與統計 by 村里
+- age_detail_village_202106 2021/06 以五歲為單位切分和性別的人口變數 by 村里
+- lmincome_town_202106 2021/06 中低收入戶人口變數 by 鄉鎮區
+- poi_town_202106 2021/06 商家與醫院等變數 by 鄉鎮區
 - ref10_demographic 2018 公投第十案 x 人口變數 by 鄉鎮區
 - edu_village_original 2020 教育程度 by 村里的寬表格
 - marriage_village_original 2020 婚姻狀況 by 村里的寬表格
