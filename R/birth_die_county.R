@@ -1,0 +1,19 @@
+#' Data of 2020 birth/die related statistics by county in Taiwan
+#'
+#'
+#'
+#' These are combined household registration records collected from SEGIS
+#' 結合 SEGIS 的兩份資料，共包含:
+#' (1) 出生數、出生登記男嬰人口數、出生登記女嬰人口數、婚生人數、非婚生已認領人數、非婚生未認領人數、棄嬰或無依兒童人數、本國籍生母之嬰兒出生數、非本國籍生母之嬰兒出生數
+#' (2) 為死亡數、死亡登記男性人口數、死亡登記女性人口數
+#' (3) 時間從 109 年第一季到 109 年第四季。
+#' @format A tibble with 616 rows and 5 variables:
+#' \describe{
+#'   \item{county}{chr county(hsien/shih/縣/市 in Chinese) name 縣市名稱}
+#'   \item{county_id}{chr county(hsien/shih/縣/市 in Chinese) id 縣市代號}
+#'   \item{info_time}{chr denoting time of data 資料時間}
+#'   \item{type}{chr name of metrics 指標名稱}
+#'   \item{value}{dbl denoting value of metrics 數值}
+#' @source \url{https://segis.moi.gov.tw/STAT/Web/Platform/QueryInterface/STAT_QueryProductView.aspx?pid=21E915C22091E0778D29CBD87AC51CB4&spid=7ED8D58E129BC680}
+#' @source \url{https://segis.moi.gov.tw/STAT/Web/Platform/QueryInterface/STAT_QueryProductView.aspx?pid=21E915C22091E0772777C893F3DE3864&spid=7ED8D58E129BC680}
+"birth_die_county"
