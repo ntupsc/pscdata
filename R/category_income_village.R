@@ -1,0 +1,30 @@
+#' Data of individual income tax data by village and category in Taiwan
+#'
+#' This data is in a wide format, from 101 to 107.
+#'
+#' @format A tibble with 49,276 rows and 21 variables:
+#' \describe{
+#'   \item{year}{dbl year of data}
+#'   \item{county}{chr county(hsien/shih 縣/市 in Chinese) name}
+#'   \item{town}{chr town(hsiang/chen/shih 鄉/鎮/市 in Chinese) name}
+#'   \item{village}{chr county(tsun/li 村/里 in Chinese) name}
+#'   \item{unit}{dbl taxing unit, 納稅單位}
+#'   \item{profit_seeking_income}{dbl individual income, 營利所得}
+#'   \item{professional_practice_income}{dbl individual income, 執行業務所得}
+#'   \item{employment_income}{dbl individual income, 薪資所得}
+#'   \item{interest_income}{dbl individual income, 利息所得}
+#'   \item{lease_royalties_income}{dbl individual income, 租賃及權利金}
+#'   \item{property_transaction_income}{dbl individual income, 財產交易所得}
+#'   \item{award_chance_income}{dbl individual income, 機會中獎所得}
+#'   \item{dividends_income}{dbl individual income, 股利所得}
+#'   \item{separation_income}{dbl individual income, 退職所得}
+#'   \item{other_income}{dbl individual income, 其他所得}
+#'   \item{published_aritcles_income}{dbl individual income, 稿費所得}
+#'   \item{filing_more_than_return}{dbl individual income, 申報大於歸戶}
+#'   \item{net_employment_income}{dbl individual income, 薪資淨所得}
+#'   \item{consolidated_income_by_net_employment}{dbl individual income, 按薪資淨所得計算之綜合所得}
+#'   \item{published_aritcles_revenue}{dbl individual income, 稿費收入}
+#' }
+#' @source \url{https://data.gov.tw/dataset/17780}
+"category_income_village"
+
